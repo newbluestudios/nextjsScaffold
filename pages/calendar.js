@@ -13,7 +13,7 @@ export default ({events}) =>(
         <div>
           {event.date}
         </div>
-        <img style={{ maxWidth: 200 }} key={event.image} src={event.image} />
+        <img style={{ maxWidth: 200 }} key={event.attatchments} src={event.attatchments} />
       </div>
     ))}
   </div>
