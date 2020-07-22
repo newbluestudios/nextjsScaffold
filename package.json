@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "airtable": "^0.8.1",
     "date-fns": "^2.15.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
