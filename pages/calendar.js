@@ -7,7 +7,13 @@ export default ({events}) =>(
     test
     {events.map((event)=>(
       <div>
-        {event.description}
+        <div>
+          {event.description}
+        </div>
+        <div>
+          {event.date}
+        </div>
+        <img style={{ maxWidth: 200 }} key={event.attatchments} src={event.attatchments} />
       </div>
     ))}
   </div>
